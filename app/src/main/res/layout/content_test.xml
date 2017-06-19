@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="#000000"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.gagan.gridview.test"
+    tools:showIn="@layout/app_bar_test">
+
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/frame"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:textColor="@color/gold"
+        android:id="@+id/txtvwdata"
+        android:padding="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/frame"
+
+       />
+    <TextView
+android:textAlignment="center"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/frame"
+        android:layout_centerHorizontal="true"
+        android:layout_width="100sp"
+        android:layout_height="40sp"
+        android:id="@+id/open"
+        android:text=""
+        android:textSize="20dp"
+        android:textColor="@color/gold"
+        android:layout_marginTop="30dp"
+ />
+
+    <TextView
+      android:layout_below="@+id/open"
+        android:id="@+id/about"
+               android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+android:text="Chattbir Zoo is a zoological park situated close to Zirakpur on the Chandigarh-Zirakpur-Banur route and is located about 17 km away from Chandigarh.The Zoo was inaugurated on 13 April, 1977 by the then Governor of Punjab Shri Mahendra Mohan Chaudhury and is a home to a large variety of Birds, Mammals and Reptiles."
+        android:textSize="18sp"
+        android:textStyle="italic"
+android:paddingRight="5dp"
+        android:layout_toRightOf="@+id/frame" />
+
+    <ViewFlipper
+
+       android:layout_below="@+id/about"
+       android:id="@+id/vf"
+        android:paddingTop="15dp"
+        android:layout_toRightOf="@id/frame"
+        android:layout_width="wrap_content"
+        android:layout_height="200sp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:inAnimation="@android:anim/slide_in_left"
+        android:outAnimation="@android:anim/slide_out_right"
+        android:autoStart="true"
+        android:flipInterval="2000"
+        >
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cc"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/frame"
+            android:layout_centerHorizontal="true"
+android:scaleType="fitXY"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ee"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/frame"
+            />
+
+        <ImageView
+android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ff"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/frame"
+
+            />
+        <ImageView
+android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/oo"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/frame"
+
+            />
+
+        <ImageView
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/gg"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/frame"
+            />
+
+        <ImageView
+android:scaleType="fitXY"
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/frame"
+            app:srcCompat="@drawable/mam" />
+    </ViewFlipper>
+
+    <Button
+        android:textStyle="italic"
+        android:id="@+id/btnmap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Let's Start Tour"
+        android:textSize="20dp"
+        android:layout_below="@+id/vf"
+        android:textColor="@color/gold"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/frame"
+        android:layout_centerHorizontal="true"
+android:paddingBottom="2dp"
+
+        />
+
+</RelativeLayout>

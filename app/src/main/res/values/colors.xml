@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#347C2C</color>
+    <color name="colorPrimaryDark">#206818</color>
+    <color name="colorAccent">#a6a1a3</color>
+    <color name="gold">#FFD700</color>
+    <color name="white">#FFFFFF</color>
+    <color name="Moccasin">#FFE4B5</color>
+    <color name="Khaki">#F0E68C</color>
+    <color name="MediumOrchid">#BA55D3</color>
+    <color name="Aquamarine">#7FFFD4</color>
+    <color name="Salad_Green">#A1C935</color>
+    <color name="Hummingbird_Green">#7FE817</color>
+
+
+
+</resources>

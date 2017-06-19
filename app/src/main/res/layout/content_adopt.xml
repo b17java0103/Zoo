@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.gagan.gridview.adopt"
+   android:background="#000000"
+    tools:showIn="@layout/activity_adopt">
+<FrameLayout
+    android:id="@+id/frm"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    ></FrameLayout>
+<TextView
+    android:paddingTop="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/head"
+    android:text="Procedure For Adoption"
+    android:textColor="@color/gold"
+    android:textSize="20dp"
+android:layout_toRightOf="@+id/frm"
+    />
+    <TextView
+android:layout_below="@+id/head"
+        android:id="@+id/howexp"
+android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="1 Select your favourite Zoo."
+        android:layout_toRightOf="@+id/frm"
+        />
+    <TextView
+        android:layout_toRightOf="@+id/frm"
+        android:paddingRight="3dp"
+        android:layout_below="@+id/howexp"
+        android:id="@+id/howexp1"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2 Pick your favourite animal exhibited in the Zoo."
+        />
+    <TextView
+        android:paddingRight="3dp"
+        android:textColor="@color/white"
+        android:layout_below="@+id/howexp1"
+        android:layout_width="match_parent"
+        android:layout_toRightOf="@+id/frm"
+        android:layout_height="wrap_content"
+        android:id="@+id/howexp3"
+        android:text="3 Choose a level of support.
+"
+        />
+    <TextView
+        android:paddingRight="3dp"
+        android:layout_below="@+id/howexp3"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_toRightOf="@+id/frm"
+        android:layout_height="wrap_content"
+        android:id="@+id/howexp4"
+        android:text="4 Fill in the attached form and hand it to the concerned zoo incharge."
+        />
+
+    <TextView
+        android:paddingRight="3dp"
+        android:textColor="@color/white"
+        android:layout_below="@+id/howexp4"
+        android:layout_toRightOf="@+id/frm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/howexp6"
+        android:text="5 In case your favourite animal is already adopted your name will be put in the waiting list, and as soon as the animal is available you will be informed."  />
+
+    <TextView
+        android:paddingRight="3dp"
+        android:paddingTop="10dp"
+        android:layout_below="@+id/howexp6"
+        android:layout_width="match_parent"
+        android:layout_toRightOf="@+id/frm"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gold"
+        android:textSize="20dp"
+        android:text="Privileges of Adopting an Animal"
+        android:id="@+id/priv"
+        />
+    <TextView
+        android:paddingRight="3dp"
+        android:paddingTop="5dp"
+        android:layout_below="@+id/priv"
+        android:layout_toRightOf="@+id/frm"
+        android:id="@+id/priv1"
+        android:textColor="@color/white"
+        android:textAlignment="inherit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1 The amount deposited under Animal Adoption Scheme is exempted from Income Tax under Section- 80G of Income Tax Act 1961.
+"
+        />
+
+    <TextView
+        android:paddingRight="3dp"
+        android:layout_below="@+id/priv1"
+        android:layout_toRightOf="@+id/frm"
+        android:id="@+id/priv2"
+        android:textColor="@color/white"
+        android:textAlignment="inherit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2 The animal adopter’s name shall be suitably displayed on a board in front of adopted animal’s enclosure.
+" />
+    <TextView
+        android:paddingRight="3dp"
+        android:layout_below="@+id/priv2"
+        android:id="@+id/priv3"
+        android:textColor="@color/white"
+        android:textAlignment="inherit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/frm"
+        android:text="3 The adopter will be allowed free entry pass for his family or for five persons to visit the zoo 4 times in a year.
+"/>
+
+    <TextView
+        android:paddingRight="3dp"
+        android:layout_below="@+id/priv3"
+        android:id="@+id/priv4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textAlignment="inherit"
+        android:text="4 The adopter shall be ex-officio member of the Punjab Zoos Development Society."
+        />
+    <TextView
+        android:paddingRight="3dp"
+        android:layout_below="@+id/priv4"
+        android:id="@+id/priv5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textAlignment="inherit"
+        android:text="5 The names of the persons adopting animals for one full year shall be displayed at the entry gate of the Zoo.
+" />
+    <TextView
+        android:paddingRight="3dp"
+        android:layout_below="@+id/priv5"
+        android:id="@+id/priv6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textAlignment="inherit"
+        android:text="6 The person adopting an animal with the total adoption amount of above Rs. 10,000 shall be given a wildlife awareness kit by the zoo."/>
+
+</RelativeLayout>

@@ -1,0 +1,79 @@
+
+ <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:orientation="vertical"
+     tools:context="com.example.gagan.Fragments.Adoption">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000000"
+            >
+
+            <ImageView
+                android:id="@+id/adptim"
+                android:layout_width="match_parent"
+                android:layout_height="80sp"
+                android:background="@drawable/adpt"
+                android:layout_marginTop="1sp"
+                />
+            <TextView
+                android:paddingTop="5dp"
+                android:layout_marginLeft="80dp"
+                android:layout_below="@+id/adptim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 android:text="Why Adoption?"
+                android:textColor="@color/gold"
+                android:textSize="25dp"
+                android:id="@+id/why"
+                />
+<TextView
+    android:layout_below="@+id/why"
+    android:text="# The animal adoption scheme is a great way to show your support for wildlife conservation. By adopting your favourite animal, you contribute towards feeding of the animal for one full year/month and help support efforts in wildlife conservation.
+"
+    android:textSize="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@color/white"
+   android:textAlignment="textStart"
+    android:id="@+id/whyexp"
+    />
+<TextView
+    android:textSize="15dp"
+    android:layout_below="@id/whyexp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="# Zoos are involved in captive breeding programs for endangered species and other conservation projects all of which need the support of concerned people like you or your institution."
+    android:id="@+id/whyexp2"
+    android:textColor="@color/white"
+    />
+
+<TextView
+    android:layout_below="@+id/whyexp2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="# Your adopting the animal will not only express your love for the animal but also inspire others to follow your footsteps. An adoption makes a great gift for birthdays, an anniversary etc. and is always something unique. Show your concern towards conservation."
+android:id="@+id/why3"
+    android:textSize="15dp"
+    android:textColor="@color/white"
+    />
+            <Button
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/why3"
+                android:textColor="@color/gold"
+                android:textSize="22dp"
+android:paddingTop="5dp"
+                android:textStyle="italic"
+
+                android:gravity="center"
+                android:background="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How one can adopt an Animal?"
+    android:id="@+id/how"
+                />
+        </RelativeLayout>
+    </ScrollView>
+

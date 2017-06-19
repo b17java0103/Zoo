@@ -1,0 +1,40 @@
+<resources>
+        <string name="History">ChattBir Zoo (formally Mahendra Chaudhary Zoological Park),is a zoological park situated close to Zirakpur,Chhatbir Zoo is situated (2-3 km inside) at Patiala –Chandigarh highway approx. 8-10 km from Patiala-Ambala Highway, Zirakpur. Inaugurated on 13th April, 1977 by the then Governor of Punjab, His Excellency Sh. Mahendra Chaudhary, Chattbir zoo is one of the largest zoo of India. The zoo is spread over an area of 202 hectares (505 acre) and lies in the Protected Forest area of Chhatbir, once a hunting reserve of Maharaja of Patiala.Zoo Holidays: All Mondays, 15th August, 26th January and 2nd October.The moment you reach zoo display boards are neatly narrating Zoo Timings, Parking Cost, About Zoo,Entry Fees etc. etc.Zoo Timings: 9:00 am – 5:00 pm. India and is an abode to a large varietyof birds,mammals and reptiles. The lion safari is the most interesting part about the Chattbir Zoo.The construction of a zoo dates back to seventies and at present,it is the most developed zoological park in the area.The Chattbir zoo prides itself with the Royal Bengal tiger.People who visit here can also enjoy the adventurous trip to the reserve of Asiatic Lions where animals are found roaming freely. One can also find different bird species.The zoo remains open throughout the week except Mondays.It is quite interesting to see that how a raw scrubland got changed into a perfect abode for wild beasts.There is a beautiful picture exhibiting ecological harmony contrasting with amazing surroundings.The animals remain in natural habitat as far as behavioral and physical needs are concerned.Attractions at Zoo.The prominent part which catches the fancies of people at Chhatbir zoo of Chandigarh has been Royal Bengal.Tiger which is becoming an ideal place for visitors at the zoo. The visitors can get there in a motor
+        vehicle which remains in enclosure for having glances of refuge of tigers. People can travel inside the refuge of tiger where the close ups of the animal can be availed.The possessions of zoo of Chandigarh which add to its value are the 80 species of birds and animals rarely found anywhere else along with the colorful reptiles and fish making it an interesting place to visit.The Chandigarh zoo has officials who work hard for keeping the animals as close as possible to their natural habitats.Animals live here in large groups and have greenery in their surroundings giving this place more of an island like feel.The Zoo has been an ideal place for enjoying picnics as it consists of a water body along with large parks and the area encompassed by jungle. At the time of winters, the traffic starts building in because of pleasant climate during the day. Several zoologists also visit here to carry out research on several animal species.    </string>
+    <string name="Safari">This is an <u>underline</u>.</string>
+    <string name="tickets"></string>
+    <string name="app_name">Chandigarh Zoo</string>
+    <string name="title_activity_test">Chandigarh Zoo</string>
+    <string name="Click_Here">This is an <u>underline</u>.</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_welcome">Chandigarh Zoo</string>
+    <string name="title_activity_cat_list">List of Species</string>
+    <string name="title_activity_detail"></string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_log">log</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_visitor_maps">Map</string>
+    <string name="title_activity_gallary">Zoo Gallery</string>
+    <string name="title_activity_adopt">adopt</string>
+
+
+</resources>

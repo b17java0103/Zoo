@@ -1,0 +1,108 @@
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         android:background="#000000"
+        android:orientation="vertical"
+    tools:context="com.example.gagan.Fragments.Overview">
+
+    <!-- TODO: Update blank fragment layout -->
+
+<TextView
+    android:layout_marginTop="10dp"
+    android:layout_below="@+id/his"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="-"
+    android:textSize="15dp"
+    android:textColor="@color/gold"
+    android:id="@+id/dot1"
+    />
+            <TextView
+            android:layout_marginTop="10dp"
+                android:layout_below="@+id/his"
+                android:layout_toRightOf="@+id/dot1"
+                android:textSize="18dp"
+                android:paddingRight="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Chattbir Zoo lying on the Chandigarh-Zirakpur-Banur route, this zoo is located about 17 km away from Chandigarh.
+"
+                android:id="@+id/textView2"
+                android:textColor="@color/white"
+
+          />
+<TextView
+    android:paddingTop="10dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/dot2"
+    android:text="-"
+    android:textColor="@color/gold"
+    android:textSize="15dp"
+    android:layout_below="@+id/textView2"
+    />
+<TextView
+    android:paddingRight="3dp"
+    android:paddingTop="10dp"
+    android:layout_below="@+id/textView2"
+    android:layout_toRightOf="@+id/dot2"
+    android:textSize="18dp"
+    android:id="@+id/textView3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@color/white"
+    android:text=" The  Zoo sprawls across an expanse of 202 acres against a stunning green backdrop.
+Initially the Zoo was populated by a small number of Animals brought from Guwahati Zoo, Assam. It soon became the largest Zoo in Northern India."
+    />
+        <TextView
+
+            android:paddingTop="10dp"
+            android:layout_below="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dot3"
+            android:text="-"
+            android:textSize="15dp"
+            android:textColor="@color/gold"
+
+            />
+        <TextView
+            android:paddingRight="3dp"
+            android:paddingTop="10dp"
+            android:layout_below="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/dot3"
+            android:text=" The Chhatbir Zoo has about 950 Animals and Birds belonging to about 85 species housed in about 100 open space enclosures (Animal houses).
+"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:id="@+id/textView4"
+            />
+   <TextView
+       android:paddingTop="10dp"
+       android:layout_below="@+id/textView4"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="-"
+       android:textColor="@color/gold"
+       android:textSize="15dp"
+       android:id="@+id/dot4"
+       />
+<TextView
+    android:paddingRight="3dp"
+    android:paddingTop="10dp"
+    android:textSize="18dp"
+    android:layout_below="@+id/textView4"
+    android:layout_toRightOf="@+id/dot4"
+    android:textColor="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text=" The Animals are kept in open enclosures so that their behavioral and physical needs can be met similar to their natural habitat.During the winter season the rush increases due to pleasant climate during daytime."
+
+    />
+        </RelativeLayout>

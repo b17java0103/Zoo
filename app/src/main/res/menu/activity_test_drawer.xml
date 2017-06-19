@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Homepage"
+            android:icon="@drawable/hom"
+            android:title="Home" />
+        <item
+            android:id="@+id/Overviews"
+            android:icon="@drawable/overview"
+            android:title="Overview" />
+
+        <item
+            android:id="@+id/Animals"
+            android:icon="@drawable/anim"
+            android:title="Animals" />
+
+        <item
+            android:id="@+id/Gallary"
+            android:icon="@drawable/perfectgal"
+            android:title="Zoo Gallery" />
+        <item
+            android:id="@+id/fulltour"
+            android:icon="@drawable/cust"
+            android:title="Full Tour"
+            />
+
+
+        <item
+            android:id="@+id/custom"
+            android:icon="@drawable/cust"
+            android:title="Time Saving Tour"
+            />
+    </group>
+
+    <item android:title="Facilities and Information">
+        <menu>
+
+            <item
+                android:id="@+id/timetariff"
+                android:icon="@drawable/aaa"
+                android:title="Timings and Tariffs" />
+
+            <item
+                android:id="@+id/attraction"
+                android:icon="@drawable/attract"
+                android:title=" Major Attractions" />
+
+            <item
+                android:id="@+id/visitorfac"
+                android:icon="@drawable/aaa"
+                android:title="Visitors Facilities" />
+
+            <item
+                android:id="@+id/adopt"
+                android:icon="@drawable/adopt"
+                android:title="Adoption" />
+
+
+
+            <item
+                android:id="@+id/food"
+                android:icon="@drawable/food"
+                android:title="Food Points" />
+
+
+
+        </menu>
+    </item>
+
+
+    <item android:title="Communication">
+        <menu>
+
+            <item
+                android:id="@+id/feedback"
+                android:title="Share Your Views"
+                android:icon="@drawable/feedback"
+                />
+
+
+        </menu>
+
+
+    </item>
+</menu>

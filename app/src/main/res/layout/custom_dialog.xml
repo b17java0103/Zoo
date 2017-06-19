@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+   >
+
+    <TextView
+        android:paddingLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_tit"
+        android:textSize="30dp"
+        android:textColor="@color/gold"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+
+        android:text="title"/>
+
+    <TextView
+            android:layout_margin="10dp"
+        android:layout_below="@+id/txt_tit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+
+        android:text="text"
+        android:id="@+id/txt_visit"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_visit"
+        android:id="@+id/btn_nv"
+       android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/btn"
+        android:text="Navigate"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn"
+        android:text="OK"
+        android:layout_below="@+id/txt_visit"
+        android:layout_alignLeft="@+id/txt_visit"
+        android:layout_alignStart="@+id/txt_visit"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp" />
+
+
+
+</RelativeLayout>
